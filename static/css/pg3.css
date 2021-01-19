@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #2F4F4F;
+	font-family: "Poppins",Sans-serif;
+}
+.container{
+	margin:20px 40px;
+	color: white;
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.heading{
+	font-size: 60px;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+}
+.heading h1{
+	background-color: rgba(0,0,0,0.4);
+}
+.heading span{
+	font-style: italic;
+	font-size: 30px;
+}
+.profiles{
+	display:inline-table;
+	justify-content: space-around;
+	margin:30px 90px;
+}
+
+.profile .profile-img{
+	height: 210px;
+	width: 210px;
+	border-radius:50%;
+	filter: grayscale(0);
+	cursor: pointer;
+	transition: 400ms;
+}
+
+.profile:hover .profile-img{
+	filter: grayscale(100);
+}
+
+.user-name{
+	margin-top: 30px;
+	font-size: 25px;
+}
+.profile h5{
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 3px;
+	color: #ccc;
+}
+#subb{
+	width:95%;
+	padding: 10px;
+	background-color:#DC144C;
+	color: #fff;
+	font-size: 20px;
+	outline: 0;
+	border: none;
+	cursor: pointer;
+}
+.profile ul{
+	font-size: 18px;
+	font-weight: 100;
+	color: #ccc;
+}
+.profile ul li{
+	padding: 10px;
+	font-family: sans-serif;
+}
+@media only screen and (max-width: 1150px){
+	.profiles{
+		flex-direction: column;
+	}
+.profile{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+}

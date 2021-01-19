@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image: url(../frontend/css/app.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+h1{
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	border-bottom: 5px solid white;
+	background-color: rgba(0,0,0,0.4);
+}
+.apply{
+	width:30%;
+	margin: auto;
+	margin-top: 30px;
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+#apply{
+	padding: 10px;
+}
+h2{
+	color: white;
+	padding: 10px;
+	background-color:#000;
+	text-align: center;
+}
+#title{
+width:15%;
+padding: 10px;
+border: none;
+outline: 0;
+}
+#Firstname{
+width: 35%;
+padding: 10px;
+border: none;
+outline: 0;
+}
+#Lastname{
+width:30%;
+padding: 10px;
+border: none;
+outline: 0;
+}
+#State{
+width:90%;
+padding: 10px;
+border: none;
+outline: 0;
+}
+#ph{
+width:15%;
+padding: 10px;
+border: none;
+outline: 0;
+}
+#cntry{
+width:95%;
+padding: 10px;
+border: none;
+outline: 0;
+}
+
+#nam{
+width:75%;
+padding: 10px;
+border: none;
+outline: 0;
+}
+
+#tec{
+width:95%;
+padding: 10px;
+border: none;
+outline: 0;
+}
+#sub{
+	width:95%;
+	padding: 10px;
+	background-color:#DC144C;
+	color: #fff;
+	font-size: 20px;
+	outline: 0;
+	border: none;
+}
+
+#edu{
+width:90%;
+padding: 10px;
+border: none;
+outline: 0;
+}
+
+#PREF{
+width:95%;
+padding: 10px;
+border: none;
+outline: 0;
+}
